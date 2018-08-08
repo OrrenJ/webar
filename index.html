@@ -11,11 +11,15 @@
 		<a-assets>
 			<a-asset-item id="bigmax-obj" src="BaymaxWhiteOBJ/Bigmax_White_OBJ.obj"></a-asset-item>
 			<a-asset-item id="bigmax-mtl" src="BaymaxWhiteOBJ/Bigmax_White_OBJ.mtl"></a-asset-item>
+			<a-asset-item id="mario" src="mario/model.dae"></a-asset-item>
+			<a-asset-item id="batman" src="batman/BATMAN.skp"></a-asset-item>
 		</a-assets>
 		<!-- define a camera which will move according to the marker position -->
 		<a-marker-camera preset="hiro">
 			<!-- create your content here -->
 			<a-entity id="bigmax" visible="true" obj-model="obj: #bigmax-obj; mtl: #bigmax-mtl" scale="0.01 0.01 0.01">
+			<a-entity id="mario" visible="true" collada-model="#mario" scale="0.01 0.01 0.01">
+			<a-entity id="batman" visible="true" sketchup-model="#batman" scale="0.01 0.01 0.01">
 		</a-marker-camera>
   	</a-scene>
 </body>
