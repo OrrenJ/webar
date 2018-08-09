@@ -1,6 +1,8 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
 # File Created: 26.12.2014 14:21:46
 
+map_Kd EyesWhite.png
+
 newmtl wire_198224087
 	Ns 32
 	d 1
@@ -40,5 +42,3 @@ newmtl wire_214229166
 	Ka 0.8392 0.8980 0.6510
 	Kd 0.8392 0.8980 0.6510
 	Ks 0.3500 0.3500 0.3500
-
-map_Kd EyesWhite.png
