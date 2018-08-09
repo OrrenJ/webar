@@ -8,6 +8,7 @@
 	-webkit-align-items: center;
 	align-items: center;
 	height: 100%;
+	display: inline-block;
 }
 
 .marker {
@@ -15,7 +16,6 @@
 	max-width: 400px;
 	min-height: 200px;
 	min-width: 200px;
-	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
