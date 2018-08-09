@@ -39,11 +39,11 @@
 		</a-assets>
 		<a-marker-camera preset="hiro">
 			<!-- content -->
-			<a-entity id="drone" visible="true" gltf-model="##buster_drone"></a-entity>
+			<a-entity id="drone" visible="true" gltf-model="#buster_drone"></a-entity>
 		</a-marker-camera>
 		<a-marker preset="custom" type="pattern" url="marker/dark-space.patt">
 			<!-- create your content here -->
-			<a-entity id="astro" visible="true" obj-model="obj: #astro-obj; mtl: #astro-mtl">
+			<a-entity id="astro" visible="true" obj-model="obj: #astro-obj; mtl: #astro-mtl" scale="0.25 0.25 0.25">
 			</a-entity>
 		</a-marker>
 		<a-entity camera></a-entity>
